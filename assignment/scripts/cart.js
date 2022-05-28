@@ -7,7 +7,7 @@ let basket = []
 
 function addItem(item){
     basket.push(item)
-    return true
+    return true;
 }
 
 function listItems(){
@@ -15,4 +15,11 @@ function listItems(){
 for (let i = 0; i<basket.length; i++) {
      console.log(basket[i]);
 }
+}
+
+function empty(array) {
+    array = []
+    basket = array
+    return true;
+
 }
